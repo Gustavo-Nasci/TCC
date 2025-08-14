@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import { Home } from './pages/Home'
 
 export function App() {
   return(
       <main>
-          <h1>App</h1>
+
+          <Home />
+          
       </main>
   )
 }
